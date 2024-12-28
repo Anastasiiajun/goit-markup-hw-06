@@ -816,26 +816,66 @@ button {
   margin: 0;
 }
 @media screen and (min-width: 768px) {
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  .p-footer {
+    justify-content: flex-start;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .div-footer-text {
+    width: 264px;
+    height: 112px;
+    align-items: flex-start;
+  }
+  .soc-text {
+    justify-content: flex-start;
+  }
 }
 @media screen and (min-width: 1158px) {
   .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     padding-top: 100px;
     padding-bottom: 100px;
   }
   .footer-div {
     display: flex;
-    flex-direction: row;
-    display: flex;
-    align-items: baseline;
-  }
-  .div-footer-text {
-    align-items: center;
     justify-content: center;
-    margin-right: 120px;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
   }
+
   .div-footer-soc {
     margin-left: 120px;
+  }
+  .soc-text {
+    justify-content: flex-start;
+  }
+  .p-footer {
+    justify-content: flex-start;
   }
 }
