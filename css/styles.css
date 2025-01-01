@@ -1159,14 +1159,13 @@ button {
 
 /*mobile-menu*/
 .mobile-menu-container {
-  padding: 0 16px;
-  margin: 0 auto;
-  margin-top: 72px;
   margin-bottom: 40px;
   max-width: 324px;
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding-top: 72px;
+  padding-bottom: 40px;
 }
 
 .mobile-menu {
@@ -1246,7 +1245,8 @@ button {
   flex-direction: column;
   gap: 24px;
   font-style: normal;
-  padding: 0;
+  padding-left: 0;
+  padding-bottom: 48px;
   margin: 0;
 }
 .contakts-mm {
