@@ -63,6 +63,72 @@
           </svg>
         </button>
       </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg width="8" height="8" class="mm-svg-close">
+              <use href="./images/hw5.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="navigation-mm">
+            <ul class="ul-nav-mm">
+              <li>
+                <a href="./index.html" class="link-nav-mm">Studio</a>
+              </li>
+              <li>
+                <a href="" class="link-nav-mm">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="link-nav-mm">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address-mm">
+            <ul class="ul-address-mm">
+              <li>
+                <a href="tel:+110001111111" class="contakts-mm"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="contakts-mm"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="ul-soc-mm">
+            <li class="li-soc-mm">
+              <a href="#icon-instagram" class="icon-mm">
+                <svg width="24" height="24" class="svg-sn">
+                  <use href="./images/sn.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-soc-mm">
+              <a href="#icon-twitter" class="icon-mm"
+                ><svg width="24" height="24" class="svg-sn">
+                  <use href="./images/sn.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-soc-mm">
+              <a href="#icon-facebook" class="icon-mm"
+                ><svg width="24" height="24" class="svg-sn">
+                  <use href="./images/sn.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-soc-mm">
+              <a href="#icon-linkedin" class="icon-mm"
+                ><svg width="24" height="24" class="svg-sn">
+                  <use href="./images/sn.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
     </header>
     <main>
       <section class="section-page-hero">
@@ -82,7 +148,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="title">Strategy</h3>
+              <h3 class="title-f">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -94,7 +160,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="title">Punctuality</h3>
+              <h3 class="title-f">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -106,7 +172,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="title">Diligence</h3>
+              <h3 class="title-f">Diligence</h3>
               <p class="text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -118,7 +184,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title">Technologies</h3>
+              <h3 class="title-f">Technologies</h3>
               <p class="text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -502,7 +568,7 @@
       </div>
     </footer>
 
-    <div class="backdrop hidden">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="close">
           <svg width="8" height="8" class="svg-close">
@@ -592,3 +658,12 @@
     </div>
   </body>
 </html>
+
+
+
+
+
+.icon-mm:hover,
+.icon-mm:focus {
+  background-color: #31d0aa;
+}
